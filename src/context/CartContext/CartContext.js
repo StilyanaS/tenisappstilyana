@@ -35,8 +35,8 @@ const CartContextProvider = ({ children }) => {
   };
 
   const calcTotalPerItem = (id) => {
-    let currItemAr = cartList.filter((item) => item.itemId === id);
-    let currItem = currItemAr[0];
+    const currItemAr = cartList.filter((item) => item.itemId === id);
+    const currItem = currItemAr[0];
     return currItem.price * currItem.qty;
   };
 

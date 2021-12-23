@@ -6,7 +6,7 @@ const ItemList = ({ newData }) => {
 
   return (
     <div className='list-container'>
-      <ListGroup horizontal='lg' className="my-2">
+      <ListGroup horizontal='xl' className="my-2">
         {newData.map((item) => (
           <ListGroup.Item key={item.id}>
             <Item item={item} />

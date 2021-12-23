@@ -1,14 +1,11 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import { FiPlus } from "react-icons/fi";
 import { FiMinus } from "react-icons/fi";
 import "./ItemCount.css";
 import Button from "react-bootstrap/Button";
 import Stack from "react-bootstrap/Stack";
-import { CartContext } from "../../context/CartContext/CartContext";
 
 const ItemCount = ({ initial, stock, onAdd }) => {
-  const test = useContext(CartContext);
-  console.log(test);
   let quantity = 0;
   const [count, setCount] = useState(1);
   function onIncr() {

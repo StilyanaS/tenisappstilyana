@@ -22,7 +22,7 @@ That's all!
 ## Demo
 
 App link:
-https://stupefied-hopper-deab0c.netlify.app/
+https://clever-pike-c4f115.netlify.app/
 
 
 ## 🚀 About Me

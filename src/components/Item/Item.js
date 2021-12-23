@@ -13,7 +13,7 @@ const Item = ({ item }) => {
         <Image src={item.image} alt='' fluid className='imageWidth'/>
         <Card.Text>
           {item.description}
-          <p><strong>Precio: {item.price}</strong></p>
+          <br /><strong>Precio: {item.price}</strong>
         </Card.Text>
         <Button variant="dark" ><Link to={`/item/${item.id}`} className='btn-color'>Comprar</Link></Button>
       </Card.Body>

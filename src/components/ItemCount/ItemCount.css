@@ -3,7 +3,7 @@ button {
 }
 
 input {
-    max-width: 4em;
+    max-width: 100%;
     margin: auto 1em;
     text-align: center;
     border: 0;
